@@ -44,7 +44,7 @@ const Dongle kDongles[] = {
     { 0x362D, 0xD028, -1 },  // SKN Qinglong (PR #2614, hardware untested)
     { 0x362D, 0xD030, -1 },  // Lemokey Link (PR #2616, hardware untested)
     { 0x362D, 0xD101, -1 },  // Wireless Link (PR #2617, hardware untested)
-    { 0x342D, 0xE49F, -1 },  // Spade65-QMK-2.4GHz (PR #2619, hardware untested)
+    { 0x3434, 0x0611, -1 },  // Keychron Q1 Pro (issue #2653, hardware untested)
 };
 
 const size_t kLen = 32;  // payload bytes after the report id; the last one is the checksum
